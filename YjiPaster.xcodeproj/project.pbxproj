@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4B89EB0E275B332F6A1580 /* Pods_YjiPaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D898089792302FFA93FD6C /* Pods_YjiPaster.framework */; };
+		DB1669E51FBE8C5E004BC7C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1669E41FBE8C5E004BC7C7 /* AppDelegate.swift */; };
+		DB1669E71FBE8C5E004BC7C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1669E61FBE8C5E004BC7C7 /* ViewController.swift */; };
+		DB1669EA1FBE8C5E004BC7C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1669E81FBE8C5E004BC7C7 /* Main.storyboard */; };
+		DB1669EC1FBE8C5E004BC7C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1669EB1FBE8C5E004BC7C7 /* Assets.xcassets */; };
+		DB1669EF1FBE8C5E004BC7C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1669ED1FBE8C5E004BC7C7 /* LaunchScreen.storyboard */; };
+		DB1669FE1FBE8E9F004BC7C7 /* XTPasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1669FA1FBE8E9F004BC7C7 /* XTPasterView.m */; };
+		DB1669FF1FBE8E9F004BC7C7 /* XTPasterStageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1669FD1FBE8E9F004BC7C7 /* XTPasterStageView.m */; };
+		DB166A021FBE93F5004BC7C7 /* UIImage+AddFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB166A001FBE93F5004BC7C7 /* UIImage+AddFunction.m */; };
+		DB166AE91FBEAC45004BC7C7 /* StickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB166AE81FBEAC45004BC7C7 /* StickerViewController.swift */; };
+		DB166AEB1FBEAC77004BC7C7 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB166AEA1FBEAC77004BC7C7 /* StickerCell.swift */; };
+		DB166AED1FBEADBA004BC7C7 /* StickerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB166AEC1FBEADBA004BC7C7 /* StickerLayout.swift */; };
+		DB166AEF1FBEB51F004BC7C7 /* stickers in Resources */ = {isa = PBXBuildFile; fileRef = DB166AEE1FBEB51F004BC7C7 /* stickers */; };
+		DB166AF11FBEC3E8004BC7C7 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB166AF01FBEC3E8004BC7C7 /* Protocol.swift */; };
+		DB166AF51FBEDC85004BC7C7 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB166AF41FBEDC85004BC7C7 /* SegmentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15D898089792302FFA93FD6C /* Pods_YjiPaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YjiPaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953196FC66E73BCBECD4065D /* Pods-YjiPaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YjiPaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-YjiPaster/Pods-YjiPaster.release.xcconfig"; sourceTree = "<group>"; };
+		AD45CA8DAC26DB3F5F76441B /* Pods-YjiPaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YjiPaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YjiPaster/Pods-YjiPaster.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1669E11FBE8C5E004BC7C7 /* YjiPaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YjiPaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1669E41FBE8C5E004BC7C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB1669E61FBE8C5E004BC7C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB1669E91FBE8C5E004BC7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1669EB1FBE8C5E004BC7C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1669EE1FBE8C5E004BC7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1669F01FBE8C5E004BC7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1669F61FBE8C7C004BC7C7 /* YjiPaster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YjiPaster-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB1669FA1FBE8E9F004BC7C7 /* XTPasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPasterView.m; sourceTree = "<group>"; };
+		DB1669FB1FBE8E9F004BC7C7 /* XTPasterStageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPasterStageView.h; sourceTree = "<group>"; };
+		DB1669FC1FBE8E9F004BC7C7 /* XTPasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPasterView.h; sourceTree = "<group>"; };
+		DB1669FD1FBE8E9F004BC7C7 /* XTPasterStageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPasterStageView.m; sourceTree = "<group>"; };
+		DB166A001FBE93F5004BC7C7 /* UIImage+AddFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AddFunction.m"; sourceTree = "<group>"; };
+		DB166A011FBE93F5004BC7C7 /* UIImage+AddFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AddFunction.h"; sourceTree = "<group>"; };
+		DB166AE81FBEAC45004BC7C7 /* StickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerViewController.swift; sourceTree = "<group>"; };
+		DB166AEA1FBEAC77004BC7C7 /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
+		DB166AEC1FBEADBA004BC7C7 /* StickerLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerLayout.swift; sourceTree = "<group>"; };
+		DB166AEE1FBEB51F004BC7C7 /* stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stickers; sourceTree = "<group>"; };
+		DB166AF01FBEC3E8004BC7C7 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		DB166AF41FBEDC85004BC7C7 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1669DE1FBE8C5E004BC7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4B89EB0E275B332F6A1580 /* Pods_YjiPaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		973BAAD3D2799BE38268CCF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D898089792302FFA93FD6C /* Pods_YjiPaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1669D81FBE8C5E004BC7C7 = {
+			isa = PBXGroup;
+			children = (
+				DB1669E31FBE8C5E004BC7C7 /* YjiPaster */,
+				DB1669E21FBE8C5E004BC7C7 /* Products */,
+				E5B2F8730641C663F9D8C4B8 /* Pods */,
+				973BAAD3D2799BE38268CCF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1669E21FBE8C5E004BC7C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1669E11FBE8C5E004BC7C7 /* YjiPaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1669E31FBE8C5E004BC7C7 /* YjiPaster */ = {
+			isa = PBXGroup;
+			children = (
+				DB166AEE1FBEB51F004BC7C7 /* stickers */,
+				DB1669F91FBE8E9F004BC7C7 /* Paster */,
+				DB1669E41FBE8C5E004BC7C7 /* AppDelegate.swift */,
+				DB1669E61FBE8C5E004BC7C7 /* ViewController.swift */,
+				DB166AF41FBEDC85004BC7C7 /* SegmentViewController.swift */,
+				DB1669E81FBE8C5E004BC7C7 /* Main.storyboard */,
+				DB1669EB1FBE8C5E004BC7C7 /* Assets.xcassets */,
+				DB1669ED1FBE8C5E004BC7C7 /* LaunchScreen.storyboard */,
+				DB1669F01FBE8C5E004BC7C7 /* Info.plist */,
+				DB1669F61FBE8C7C004BC7C7 /* YjiPaster-Bridging-Header.h */,
+				DB166AE81FBEAC45004BC7C7 /* StickerViewController.swift */,
+				DB166AEA1FBEAC77004BC7C7 /* StickerCell.swift */,
+				DB166AEC1FBEADBA004BC7C7 /* StickerLayout.swift */,
+				DB166AF01FBEC3E8004BC7C7 /* Protocol.swift */,
+			);
+			path = YjiPaster;
+			sourceTree = "<group>";
+		};
+		DB1669F91FBE8E9F004BC7C7 /* Paster */ = {
+			isa = PBXGroup;
+			children = (
+				DB166A011FBE93F5004BC7C7 /* UIImage+AddFunction.h */,
+				DB166A001FBE93F5004BC7C7 /* UIImage+AddFunction.m */,
+				DB1669FC1FBE8E9F004BC7C7 /* XTPasterView.h */,
+				DB1669FA1FBE8E9F004BC7C7 /* XTPasterView.m */,
+				DB1669FB1FBE8E9F004BC7C7 /* XTPasterStageView.h */,
+				DB1669FD1FBE8E9F004BC7C7 /* XTPasterStageView.m */,
+			);
+			path = Paster;
+			sourceTree = "<group>";
+		};
+		E5B2F8730641C663F9D8C4B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD45CA8DAC26DB3F5F76441B /* Pods-YjiPaster.debug.xcconfig */,
+				953196FC66E73BCBECD4065D /* Pods-YjiPaster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1669E01FBE8C5E004BC7C7 /* YjiPaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1669F31FBE8C5E004BC7C7 /* Build configuration list for PBXNativeTarget "YjiPaster" */;
+			buildPhases = (
+				DBF12FC9F80075587644CE8F /* [CP] Check Pods Manifest.lock */,
+				DB1669DD1FBE8C5E004BC7C7 /* Sources */,
+				DB1669DE1FBE8C5E004BC7C7 /* Frameworks */,
+				DB1669DF1FBE8C5E004BC7C7 /* Resources */,
+				32938310406043BC67FB7A2B /* [CP] Embed Pods Frameworks */,
+				F6B23370C41BDB805284B77A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YjiPaster;
+			productName = YjiPaster;
+			productReference = DB1669E11FBE8C5E004BC7C7 /* YjiPaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1669D91FBE8C5E004BC7C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Ericji;
+				TargetAttributes = {
+					DB1669E01FBE8C5E004BC7C7 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB1669DC1FBE8C5E004BC7C7 /* Build configuration list for PBXProject "YjiPaster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1669D81FBE8C5E004BC7C7;
+			productRefGroup = DB1669E21FBE8C5E004BC7C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1669E01FBE8C5E004BC7C7 /* YjiPaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1669DF1FBE8C5E004BC7C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB166AEF1FBEB51F004BC7C7 /* stickers in Resources */,
+				DB1669EF1FBE8C5E004BC7C7 /* LaunchScreen.storyboard in Resources */,
+				DB1669EC1FBE8C5E004BC7C7 /* Assets.xcassets in Resources */,
+				DB1669EA1FBE8C5E004BC7C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32938310406043BC67FB7A2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YjiPaster/Pods-YjiPaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YjiPaster/Pods-YjiPaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF12FC9F80075587644CE8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YjiPaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B23370C41BDB805284B77A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YjiPaster/Pods-YjiPaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1669DD1FBE8C5E004BC7C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB166AE91FBEAC45004BC7C7 /* StickerViewController.swift in Sources */,
+				DB166AED1FBEADBA004BC7C7 /* StickerLayout.swift in Sources */,
+				DB166AF51FBEDC85004BC7C7 /* SegmentViewController.swift in Sources */,
+				DB1669FF1FBE8E9F004BC7C7 /* XTPasterStageView.m in Sources */,
+				DB166A021FBE93F5004BC7C7 /* UIImage+AddFunction.m in Sources */,
+				DB1669FE1FBE8E9F004BC7C7 /* XTPasterView.m in Sources */,
+				DB166AF11FBEC3E8004BC7C7 /* Protocol.swift in Sources */,
+				DB1669E71FBE8C5E004BC7C7 /* ViewController.swift in Sources */,
+				DB166AEB1FBEAC77004BC7C7 /* StickerCell.swift in Sources */,
+				DB1669E51FBE8C5E004BC7C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB1669E81FBE8C5E004BC7C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1669E91FBE8C5E004BC7C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1669ED1FBE8C5E004BC7C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1669EE1FBE8C5E004BC7C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1669F11FBE8C5E004BC7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1669F21FBE8C5E004BC7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1669F41FBE8C5E004BC7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD45CA8DAC26DB3F5F76441B /* Pods-YjiPaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FB7WTB4847;
+				INFOPLIST_FILE = YjiPaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ericji.YjiPaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YjiPaster/YjiPaster-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1669F51FBE8C5E004BC7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953196FC66E73BCBECD4065D /* Pods-YjiPaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FB7WTB4847;
+				INFOPLIST_FILE = YjiPaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ericji.YjiPaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YjiPaster/YjiPaster-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1669DC1FBE8C5E004BC7C7 /* Build configuration list for PBXProject "YjiPaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1669F11FBE8C5E004BC7C7 /* Debug */,
+				DB1669F21FBE8C5E004BC7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1669F31FBE8C5E004BC7C7 /* Build configuration list for PBXNativeTarget "YjiPaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1669F41FBE8C5E004BC7C7 /* Debug */,
+				DB1669F51FBE8C5E004BC7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1669D91FBE8C5E004BC7C7 /* Project object */;
+}
